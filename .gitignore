@@ -1,5 +1,6 @@
-# Created by https://www.toptal.com/developers/gitignore/api/java,maven,windows,linux,macos
-# Edit at https://www.toptal.com/developers/gitignore?templates=java,maven,windows,linux,macos
+
+# Created by https://www.toptal.com/developers/gitignore/api/java,maven,windows,macos,linux,netbeans
+# Edit at https://www.toptal.com/developers/gitignore?templates=java,maven,windows,macos,linux,netbeans
 
 ### Java ###
 # Compiled class file
@@ -82,6 +83,16 @@ buildNumber.properties
 # https://github.com/takari/maven-wrapper#usage-without-binary-jar
 .mvn/wrapper/maven-wrapper.jar
 
+### NetBeans ###
+**/nbproject/private/
+**/nbproject/Makefile-*.mk
+**/nbproject/Package-*.bash
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
 ### Windows ###
 # Windows thumbnail cache files
 Thumbs.db
@@ -108,4 +119,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/java,maven,windows,linux,macos
+# End of https://www.toptal.com/developers/gitignore/api/java,maven,windows,macos,linux,netbeans
