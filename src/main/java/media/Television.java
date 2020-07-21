@@ -1,5 +1,5 @@
 
-package main.multimedia;
+package media;
 
 public class Television {
     
@@ -10,7 +10,7 @@ public class Television {
     public Television() {
         this.Volume = 0;
         this.currentProgram =1;
-        this.turnOn = true;
+        this.turnOn = turnOn;
 }
 
     
@@ -31,7 +31,7 @@ public class Television {
         this.currentProgram = currentProgram;
     }
 
-    public boolean isTurnOn() {
+    public boolean getTurnOn() {
         return turnOn;
     }
 
@@ -39,5 +39,14 @@ public class Television {
         this.turnOn = turnOn;
     }
     
+    
+    
+    public void printAttributes() {
+        System.out.println("Televizor je ukljucen:" + this.getTurnOn());
+        System.out.println("Volumen je: " + this.getVolume());
+        System.out.println("Trenutni program je: " + this.getCurrentProgram());
+        
+    
+}
     
 }
