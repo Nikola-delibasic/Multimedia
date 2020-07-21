@@ -28,20 +28,17 @@ public class Radio {
     }
 
     public void setBand(char band) {
-        this.band = band;
-    }
-    
-    
-    
-    public Radio(){
-        this.fmFrequency = 91.0;
-        this.amFrequency = 100;
         this.band = 'F';
-        
-        
     }
     
-
     
+   
     
+    public void printAttributes() {
+        System.out.println("FM Frequency is:" + this.getFmFrequency());
+        System.out.println("AM Frequency is:" + this.getAmFrequency());
+        System.out.println("Band is:" + this.getBand());
+    
+  
+    }
 }
