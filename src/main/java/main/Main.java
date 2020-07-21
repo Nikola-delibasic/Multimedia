@@ -16,6 +16,7 @@ public class Main {
     LG.setTurnOn(true);
     LG.printAttributes();
     
+    
     Radio Pure = new Radio();
     Pure.printAttributes();
     
